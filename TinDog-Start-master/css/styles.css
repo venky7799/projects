@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.viewport {
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .scroll-container {  
+    position: absolute;  
+    overflow: hidden;
+    z-index: 10;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+   }
+  
+  .content {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+
+
+
+
+#title{
+    background-color: #ff4c68;
+    
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.bigheading{
+    font-weight: 900;
+    font-size: 2.8rem;
+    line-height: 1.5;
+    color: white;
+}
+h2{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4 , h5, h6 {
+    font-family:'Monterrat-Black', sans-serif;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-items{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.iphone{
+    width: 55%;
+    margin-left:7rem ;
+    transform: rotate(33deg);
+   
+    
+}
+
+#features{
+    padding: 7% 15%;
+
+}
+
+#features h3{
+    text-align: center;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
+#features p{
+    color: #8f8f8f;
+}
+
+.sec1{
+    padding: 2rem;
+    text-align: center;
+}
+
+#testimonials{
+    padding: 4rem 5rem;
+    text-align:center;
+    background-color: tomato;
+    color: white;
+    height: 100vh;
+    align-items: center;
+
+}  
+#testimonials h2{
+    padding: 4rem 0rem;
+}
+
+.testimonial-img{
+    
+    margin: 3rem;
+    width: 10%;
+    border-radius: 100%;
+
+}
+
+#press{
+    background-color: tomato;
+    text-align: center;
+    padding: 0rem 3rem;
+    padding-bottom: 3rem;
+}
+
+#press .press-img{
+    width: 15%;
+    margin: 2rem 1rem 1.5rem;
+}
+
+.carousel-item{
+    padding: 0% 15%;
+    padding-bottom: 10%;
+}
+
+.carsousel-itemh2{
+    line-height: 1.2 !important;
+}
+
+
+/* pricing column */
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.pricingcol{
+    padding: 3rem 1rem;
+}
+
+#cta{
+    background-color: tomato;
+    height: 100vh;
+    text-align: center;
+}
+#cta > h3{
+    padding: 3rem 5rem;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 2;
+    width: 90%;
+}
+
+.ctabutton{
+
+margin  : 4rem 3rem;
+padding: 0.7rem 3rem;
+}
+
+#footer{
+    text-align: center;
+    padding: 1rem 0rem 2rem;
+}
+
+
+@media (max-width:1020px){
+    #title{
+        text-align: center;
+    }
+
+
+    .title-image{
+        position: static;
+    }
+}
